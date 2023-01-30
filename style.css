@@ -1,0 +1,144 @@
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu:hover .dropdown-content {
+    display: block;
+    right: 0;
+
+}
+
+.logo {
+    height: 40px;
+    width: 170px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    align-items: center;
+    /* padding-right: 70px; */
+
+}
+
+.logo-container {
+    display: flex;
+    flex-grow: 6;
+}
+
+a {
+    text-decoration: none;
+    color: #D70F64;
+}
+
+.dropdown-button {
+    background: inherit;
+}
+
+@media only screen and (min-width:961px) {
+    .slider {
+        height: 90vh;
+        width: 90wh;
+        animation: slide 20s infinite;
+    }
+
+    @keyframes slide {
+        10% {
+            background: url(foodpanda-model1-opt-scaled.jpg);
+        }
+
+        100% {
+            background: url(foodpanda-model-opt-scaled.jpg);
+        }
+
+    }
+}
+
+ .main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    border: 10px ;
+    background-color: gray;
+ }
+ .flags-flex {
+    display: flex;
+    flex-grow: 2;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 0;
+        
+}
+
+.location-text {
+    flex-grow: 8;
+    align-self: center;
+    
+}
+.flag>* {
+    margin:5px;
+    border-radius: 20%;
+}
+.location-pick,.block-one {
+    border-bottom: 300px solid white;
+}
+body {
+    text-align: center;
+}
+.about-us {
+    color: #D70F64;
+
+}
+.learn-more{
+    padding: 10px 25px;
+    background-color: #D70F64;
+    color: white;
+
+}
+.block-two {
+    
+     background-image: url(foodpanda-rider-opt.jpg);
+     background-size: cover;
+     height: 50%;
+     width: 100%;
+     background-attachment: fixed;
+     padding: 1450px 0px;  
+}
+.content-over-image {
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* .rider {} */
+/* .content-over-image {
+    position: sticky;
+} */
